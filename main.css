@@ -1,6 +1,7 @@
 html{
     line-height: 1.5;
     font-family: 'PT Sans';
+    color: #0B1942;
 }
 .navigation-bar{
     display: flex;
@@ -55,6 +56,7 @@ html{
     color: #0B1942;
     background-color: white;
     margin: 5px 0 -10px 0;
+    padding: 0px;
 }
 
 .home-header p{
@@ -69,8 +71,9 @@ html{
     color: white;
 }
 #rashomon{
-    background-color: white;
+    background-color: #E2E2E2;
     display: flex;
+    padding: 15px;
 }
 #poster-rashomon{
     width: 50%;
@@ -79,11 +82,24 @@ html{
     background-size: 135px 190px;
     background-repeat: no-repeat;
     margin-bottom: 35px;
+    margin-right: 15px;
 }
 #rashomon-info{
     width: 50%;
 }
-
+#rashomon-info a{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #00B7D3;
+}
+#rashomon-info h5{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#rashomon-info ul{
+    padding-left: 15px;
+    font-size: 14px;
+}
 
 .bottom-nav{
     border: 1px solid red;
