@@ -69,11 +69,16 @@ html{
 }
 #home-main h1{
     color: white;
+    margin: 2px;
+    font-weight: 100;
 }
 #rashomon{
     background-color: #E2E2E2;
     display: flex;
     padding: 15px;
+}
+hr{
+    font-size: 25px;
 }
 #poster-rashomon{
     width: 50%;
@@ -99,6 +104,53 @@ html{
 #rashomon-info ul{
     padding-left: 15px;
     font-size: 14px;
+}
+.other-movies{
+    background-color: #E2E2E2;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.other-movies div{
+    width: 45%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.other-movies div p{
+    margin: 0px;
+    font-size: 12px
+}
+.other-movies div a{
+    font-size: 12px;
+    color: #00B7D3;
+    
+}
+#train{
+    background-image: url("images/great-train-poster.jpg");
+    background-size: 145px 200px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#bike{
+    background-image: url("images/bicycle-thief-poster.jpg");
+    background-size: 145px 200px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#nosferatu{
+    background-image: url("images/nosferatu-poster.jpg");
+    background-size: 145px 200px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#metro{
+    background-image: url("images/metropolis-poster.jpg");
+    background-size: 145px 200px;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .bottom-nav{
