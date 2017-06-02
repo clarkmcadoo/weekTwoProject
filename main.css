@@ -30,6 +30,7 @@ html{
     padding-top: 7px;
     color: white;
     height: 100%;
+    font-size: 12px;
 }
 #home-nav{
     background-color: #00A5BF;
@@ -110,6 +111,7 @@ hr{
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;    
+    padding: 5px;
 }
 .other-movies div{
     width: 45%;
@@ -152,12 +154,12 @@ hr{
     background-position: top;
     background-repeat: no-repeat;
 }
-
-.bottom-nav{
-    border: 1px solid red;
-    
-}
 footer{
-    border: 1px solid red;
+    color: white;
+    background-color: #7DDFE8;
+    text-align: center;
+    padding: 25px;
+    height: 15px;
+    font-size: 14px;
     
 }
