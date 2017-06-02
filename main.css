@@ -180,16 +180,30 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    
- 
-
-
-
+    .header-content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-content div{
+        margin: 5px;
+        flex: 1;
+    }
     #rashomon{
         height: 455px;
         width: auto;
     }
-
+    .other-movies{
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+    footer{
+        padding: 0 10px 0 0;
+        height: 0;
+        position: relative;
+        top: -57px;
+        text-align: right;
+    }
 
 
 
