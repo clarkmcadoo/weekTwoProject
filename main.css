@@ -181,6 +181,58 @@ footer{
     height: 15px;
     font-size: 14px;
 }
+/*CALENDAR STYLING**********************/
+.calendar-main{
+    background-color: white;
+}
+.calendar-main h1{
+    margin: 0px;
+    padding-left: 10px;    
+}
+.calendar-space{
+    background-color: #0B1942;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+.calendar-space div{
+    flex: 0 1 13.9%;
+    margin: 0.5px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.calendar-space div h6{
+    background-color: #0B1942;
+    color: white;
+    padding: 10px 0px 10px 15px;
+    width: 25%;
+    margin: 0 0 30% 0;
+}
+#c32, #c33, #c34, #c35{
+    background-color: #0B1942;
+}
+.month{
+    background-color: #0B1942;
+    color: white;
+    padding: 15px;
+}
+#c13, #c27{
+    background-color: #F5005B;
+    
+}
+
+
+
+
+
+
+
+
+
 /*MOVING TO THE MEDIUM WIDTH 
 545 PX TO 768 PX
 ***********************************************/
