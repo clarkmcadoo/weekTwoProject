@@ -2,6 +2,10 @@ html{
     line-height: 1.5;
     font-family: 'PT Sans';
     color: #0B1942;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
 }
 .navigation-bar{
     display: flex;
@@ -36,15 +40,28 @@ html{
 #home-nav{
     background-color: #00A5BF;
 }
+#home-nav:hover{
+    background-color: #F5005B;
+    transition: 0.5s;
+}
 #cal-nav{
     background-color: #00B7D3;
+}
+#cal-nav:hover{
+    background-color: #F5005B;
+    transition: 0.5s;
 }
 #join-nav{
     background-color: #00D5E7;
 }
+#join-nav:hover{
+    background-color: #F5005B;
+    transition: 0.5s;
+}
 
 .home-header {
     padding: 10px;
+    background-color: white;
 }
 .home-header h2{
     background-color: #0B1942;
@@ -204,7 +221,35 @@ footer{
         top: -57px;
         text-align: right;
     }
-
-
-
  }
+/*MOVING TO THE LARGE WIDTH 
+769 PX AND UP....
+***********************************************/
+ @media screen and (min-width: 769px){
+
+#home-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#home-main h1{
+    width: 790px;
+}
+#rashomon{
+    flex: 0 1 48%;
+    height: 490px;
+}
+#poster-rashomon{
+    margin-bottom: 200px;
+    background-size: contain;
+    
+}
+.other-movies{
+    flex-wrap: wrap;
+    flex: 0 1 45%;
+    margin-top: 0px;
+
+}
+.other-movies div{
+    flex: 0 1 45%;
+}
+}
