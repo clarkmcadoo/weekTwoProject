@@ -224,8 +224,30 @@ footer{
     background-color: #F5005B;
     
 }
-
-
+/*JOIN STYLING ************************/
+.join-body{
+    background-color: white;
+    color: #0B1942;
+}
+.join-main{
+    padding: 10px;    
+}
+.upload{
+ display: flex;
+ flex-direction: column;
+}
+.upload input{
+    margin-bottom: 30px;
+}
+.photo{
+    border-radius: 100%;
+    background-image: url("images/profile-placeholder.png");
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+}
 
 
 
