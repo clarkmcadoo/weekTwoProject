@@ -248,8 +248,33 @@ footer{
     background-size: cover;
     align-self: center;
 }
-
-
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info label{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.catagories{
+    display: flex;
+    flex-direction: column;
+}
+.catagories label{
+    padding-bottom: 5px;
+}
+.additional-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#button{
+    color: white;
+    background-color: #F5005B;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+}
 
 
 
@@ -295,7 +320,47 @@ footer{
         top: -57px;
         text-align: right;
     }
+ 
+ /*WORKING ON THE JOIN PAGE*/
+ .join-main{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
  }
+ .join-main h1{
+     width: 100%;
+ }
+ .upload{
+     flex: 0 1 50%;
+ }
+ .info{
+     flex: 0 1 50%;
+     justify-content: space-around;
+     
+ }
+ .catagories{
+     width: 100%;
+     flex-direction: row;
+     flex-wrap: wrap;   
+ }
+.catagories h4{
+    width: 100%;
+}
+.catagories div{
+    flex: 1 0 35%;
+}
+ 
+ 
+ 
+ 
+ 
+ }
+
+
+
+
+
+
 /*MOVING TO THE LARGE WIDTH 
 769 PX AND UP....
 ***********************************************/
